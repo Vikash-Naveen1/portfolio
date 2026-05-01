@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vikash Naveen | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-black text-white font-sans">
+
+    <!-- NAVBAR -->
+    <nav
+        class="fixed w-full bg-black/80 backdrop-blur-md z-50 flex justify-between items-center px-8 py-4 border-b border-gray-800">
+        <h1 class="text-xl font-bold">Vikash Naveen</h1>
+        <div class="space-x-6 text-gray-300">
+            <a href="#about" class="hover:text-white">About</a>
+            <a href="#skills" class="hover:text-white">Skills</a>
+            <a href="#projects" class="hover:text-white">Projects</a>
+            <a href="#contact" class="hover:text-white">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION WITH IMAGE -->
+    <section class="min-h-screen flex flex-col md:flex-row items-center justify-center gap-10 px-6">
+
+        <!-- TEXT -->
+        <div class="text-center md:text-left max-w-xl">
+            <h1 class="text-5xl md:text-6xl font-bold leading-tight">
+                Hi, I'm <span class="text-blue-500">Vikash Naveen</span>
+            </h1>
+
+            <p class="text-gray-400 text-lg mt-4">
+                Full Stack Developer • Problem Solver • IT Student
+            </p>
+
+            <p class="text-gray-500 mt-4">
+                I build scalable web applications and solve real-world problems using modern technologies.
+            </p>
+
+            <div class="mt-6 flex gap-4 justify-center md:justify-start">
+                <a href="#projects" class="bg-blue-500 px-6 py-2 rounded-lg hover:bg-blue-600 transition">
+                    View Projects
+                </a>
+                <a href="Vikash Naveen.A [Resume] .pdf" target="_blank"
+                    class="border border-gray-600 px-6 py-2 rounded-lg hover:bg-gray-800 transition">
+                    View Resume
+                </a>
+                <a href="Vikash Naveen.A [Resume] .pdf" download
+                    class="border border-gray-600 px-6 py-2 rounded-lg hover:bg-gray-800 transition">
+                    Download Resume
+                </a>
+            </div>
+        </div>
+
+        <!-- IMAGE -->
+        <div class="relative">
+            <img src="Vikash.jpg" alt="Vikash"
+                class="w-64 h-64 object-cover rounded-full border-4 border-blue-500 shadow-lg">
+
+            <!-- glow effect -->
+            <div class="absolute inset-0 rounded-full bg-blue-500 opacity-20 blur-2xl"></div>
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="max-w-5xl mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold mb-6">About Me</h2>
+        <p class="text-gray-400 leading-relaxed">
+            I am a B.Tech Information Technology student passionate about building impactful software solutions.
+            I specialize in full-stack development and enjoy solving real-world problems.
+            I have solved 200+ coding problems and worked on real-world projects and internships.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="bg-gray-900 py-20 px-6">
+        <h2 class="text-3xl font-bold text-center mb-10">Skills</h2>
+
+        <div class="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="bg-black p-4 rounded-lg">Java</div>
+            <div class="bg-black p-4 rounded-lg">JavaScript</div>
+            <div class="bg-black p-4 rounded-lg">C</div>
+            <div class="bg-black p-4 rounded-lg">React</div>
+            <div class="bg-black p-4 rounded-lg">Tailwind CSS</div>
+            <div class="bg-black p-4 rounded-lg">Spring Boot</div>
+            <div class="bg-black p-4 rounded-lg">MySQL</div>
+            <div class="bg-black p-4 rounded-lg">Git</div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="py-20 px-6">
+        <h2 class="text-3xl font-bold text-center mb-12">Projects</h2>
+
+        <div class="max-w-5xl mx-auto">
+            <div class="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500 transition">
+                <h3 class="text-xl font-semibold">VeveTrack – Vehicle Booking System</h3>
+
+                <p class="text-gray-400 mt-3">
+                    A scalable web application for managing vehicle bookings and workflows.
+                </p>
+
+                <ul class="mt-4 text-gray-400 list-disc ml-5 space-y-2">
+                    <li>Admin dashboard and booking system</li>
+                    <li>Role-based access control</li>
+                    <li>React + TypeScript + Tailwind CSS</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="bg-gray-900 py-20 text-center">
+        <h2 class="text-3xl font-bold mb-6">Contact</h2>
+
+        <p class="text-gray-400">📧 vikashnaveen05@gmail.com</p>
+        <p class="text-gray-400 mt-2">📱 +91 9095448224</p>
+
+        <div class="mt-6 space-x-6">
+            <a href="https://github.com/Vikash-Naveen1" class="text-blue-400 hover:underline">GitHub</a>
+            <a href="www.linkedin.com/in/vikashnaveen" class="text-blue-400 hover:underline">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer class="text-center py-6 text-gray-500">
+        © 2026 Vikash Naveen
+    </footer>
+
+</body>
+
+</html>
